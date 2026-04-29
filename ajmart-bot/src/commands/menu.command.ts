@@ -1,0 +1,1 @@
+export const menuCommand = { name:'menu', aliases:['help'], category:'general', description:'Menu AJMART', usage:'.menu', cooldown:3, permission:'all', execute: async ({ reply }: any) => reply('Halo, ini AJMART. Gunakan .katalog, .cart, .checkout, .order') };
