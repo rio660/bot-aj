@@ -1,0 +1,1 @@
+export const pingCommand = { name:'ping', aliases:[], category:'utility', description:'Cek respon bot', usage:'.ping', cooldown:3, permission:'all', execute: async ({ reply }: any) => reply('pong ✅ AJMART online') };
